@@ -1,0 +1,123 @@
+/* Reset and body setup */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: url('../images/hhh.jpg') no-repeat center center fixed;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+/* Navbar setup */
+.navbar {
+    width: 100%;
+    background-color: #123f8b;
+    padding: 15px 0;
+    text-align: center;
+    color: white;
+    font-size: 1.2rem;
+}
+
+/* Page content below navbar */
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 30px 0; /* Creates space between navbar and box */
+    min-height: calc(100vh - 60px); /* full height minus navbar height */
+    box-sizing: border-box;
+}
+
+/* Login overlay box */
+.overlay {
+    width: 370px;
+    background-color: rgba(255, 255, 255, 0.98);
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    transition: all 0.3s ease;
+}
+
+.overlay:hover {
+    transform: translateY(-3px);
+}
+
+/* Inner login form box */
+.login-box {
+    text-align: center;
+}
+
+/* Logo & slogan */
+.logo-slogan {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.logo-slogan img {
+    width: 200px;
+    margin-bottom: 5px;
+}
+
+.logo-slogan .slogan {
+    font-size: 0.95rem;
+    font-style: italic;
+    color: #444;
+    margin: 0;
+}
+
+/* Heading */
+.login-box h2 {
+    margin-bottom: 20px;
+    color: #222;
+}
+
+/* Input fields */
+.login-box input[type="text"],
+.login-box input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #aaa;
+    border-radius: 6px;
+    font-size: 0.95rem;
+}
+
+/* Captcha box */
+.captcha-box {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.captcha-img {
+    padding: 10px;
+    background: #eee;
+    font-weight: bold;
+    font-family: monospace;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Login button */
+.login-box button {
+    width: 100%;
+    padding: 10px;
+    background: #3f51b5;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    margin-top: 15px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.login-box button:hover {
+    background: #2c3e94;
+}
+
+/* Signup link */
+.signup {
+    margin-top: 15px;
+    font-size: 0.9re
+}

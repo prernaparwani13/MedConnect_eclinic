@@ -1,0 +1,67 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>Signup</servlet-name>
+  	<display-name>Signup</display-name>
+  	<description></description>
+  	<servlet-class>signup.Signup</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>SignUp</servlet-name>
+  	<display-name>SignUp</display-name>
+  	<description></description>
+  	<servlet-class>com.Medconnect.SignUp</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>LoginUser</servlet-name>
+  	<display-name>LoginUser</display-name>
+  	<description></description>
+  	<servlet-class>com.Medconnect.Login.LoginUser</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>SignupUser</servlet-name>
+  	<display-name>SignupUser</display-name>
+  	<description></description>
+  	<servlet-class>com.Medconnect.Signup</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Login</servlet-name>
+  	<display-name>Login</display-name>
+  	<description></description>
+  	<servlet-class>com.Medconnect.Login.LoginUser</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>SignupUse</servlet-name>
+  	<display-name>SignupUse</display-name>
+  	<description></description>
+  	<servlet-class>com.Medconnect.Login.SignupUser</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>Signup</servlet-name>
+  	<url-pattern>/Signup</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>SignUp</servlet-name>
+  	<url-pattern>/SignUp</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>LoginUser</servlet-name>
+  	<url-pattern>/LoginUser</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>SignupUser</servlet-name>
+  	<url-pattern>/SignupUser</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Login</servlet-name>
+  	<url-pattern>/Login</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>SignupUse</servlet-name>
+  	<url-pattern>/SignupUse</url-pattern>
+  </servlet-mapping>
+</web-app>

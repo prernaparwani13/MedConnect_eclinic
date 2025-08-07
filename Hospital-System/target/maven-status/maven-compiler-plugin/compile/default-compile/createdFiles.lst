@@ -1,0 +1,7 @@
+com\Medconnect\Model\Doctor.class
+com\Medconnect\Login\SignupUser.class
+com\Medconnect\Model\User.class
+com\Medconnect\Utils\DatabaseConnection.class
+com\Medconnect\DAO\UserDAO.class
+com\Medconnect\Model\Appointment.class
+com\Medconnect\Login\LoginUser.class
